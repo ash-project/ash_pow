@@ -20,7 +20,10 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-ash_pow-*.tar
+ash_phoenix-*.tar
 
-# Temporary files, for example, from tests.
-/tmp/
+
+# Temporary files for e.g. tests
+/tmp
+
+.vscode
